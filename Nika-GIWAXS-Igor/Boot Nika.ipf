@@ -27,6 +27,7 @@ end
 Function LoadNika2DSASMacros()
 	if (str2num(stringByKey("IGORVERS",IgorInfo(0)))>=7.05)
 		Execute/P "INSERTINCLUDE \"NI1_Loader\""
+		Execute/P "INSERTINCLUDE \"Subhs functions\""
 		Execute/P "COMPILEPROCEDURES "
 		NewDataFolder/O root:Packages			//create the folder for string variable
 		string/g root:Packages:Nika12DSASItem1Str
