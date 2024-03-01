@@ -1,4 +1,4 @@
-# Eliot's-NIKA
+# Eliot's-NIKA for GIWAXS analysis
 Custom branch of NIKA based on EliotGann/Eliots-NIKA based in Igor Pro which adds custom functionality for indexing GIWAXS peaks. The code has been tested to work on images generated at Advanced Light Source BL7.3.3. and Igor Pro 9.02. Requires Igor Pro 8 and above. 
 
 Suggested Installation Method:
